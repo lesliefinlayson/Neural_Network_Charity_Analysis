@@ -5,13 +5,13 @@ Create a binary classification model that is capable of predicting whether appli
 
 ## Results
 
-_Data Preprocessing_
+### _Data Preprocessing_
 
 Model's target variable: "Is Successful"
 Model's beatures variables: "Status", "Asking Amount", "Application Type", "Income Amount", "Classification", "Special Considerations"
 Variables that are neither targets nor features, and therefore removed:  "EIN", "Name", "Affiliation", "Use_Case", "Organization"
 
-_Compiling, Training, and Evaluating the Model_
+### _Compiling, Training, and Evaluating the Model_
 Number of neurons, layers, and activation functions selected for this neural network model, and why:
 
 In researching the question of how many neurons, how many layers, etc, the answer that kept appearing is that there is no "right" way to go about this, that it is trial and error.  I therefore were with numbers in Canvas's example.  
