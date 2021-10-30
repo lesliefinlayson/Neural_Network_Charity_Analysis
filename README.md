@@ -32,6 +32,8 @@ No, first attempt fell short, performance = 72.84%:
 
 Doubling the nuerons in both layers did not change performance.
 
+
+
 <img width="557" alt="2021-10-30 (7)" src="https://user-images.githubusercontent.com/84471904/139559258-2e2b416e-5a0d-4700-990c-32d0e814787a.png">
 
 
@@ -46,6 +48,13 @@ Adding another hidden layer decreased accuracy slightly to 72.51%
 Changing the activation function to sigmoid decreased accuracy slightly to 72.68%
 
 <img width="537" alt="2021-10-30 (9)" src="https://user-images.githubusercontent.com/84471904/139559519-4164b076-3b67-431b-ba59-805e25d146b8.png">
+
+## Summary
+
+Using the Neural Network Model did not achieve the required accuracy performancy of 75% or greater, even when attempting to optimize the model.  
+
+Because there is a great deal of data available and the relationships are not clear, PCA and K-means might be used to analyze whether or not an applicant would be successful if they are funded by AlphabetSoup.  PCA would be used for preprocessing and reducing data dimensions.  K_means would then be used for clustering and visualizing.  
+
 
 
 
