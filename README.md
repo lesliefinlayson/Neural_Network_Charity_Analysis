@@ -7,11 +7,12 @@ Create a binary classification model that is capable of predicting whether appli
 
 ### _Data Preprocessing_
 
-Model's target variable: "Is Successful"
+•	Model's target variable: "Is Successful"
 
-Model's features variables: "Status", "Asking Amount", "Application Type", "Income Amount", "Classification", "Special Considerations"
+•	Model's features variables: "Status", "Asking Amount", "Application Type", "Income Amount", "Classification", "Special Considerations"
 
-Variables that are neither targets nor features, and therefore removed:  "EIN", "Name", "Affiliation", "Use_Case", "Organization"
+•	Variables that are neither targets nor features, and therefore removed:  "EIN", "Name", "Affiliation", "Use_Case", "Organization"
+
 
 ### _Compiling, Training, and Evaluating the Model_
 
